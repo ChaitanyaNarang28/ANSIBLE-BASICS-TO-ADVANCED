@@ -1,0 +1,8 @@
+
+---
+- name: Configure HTTP server
+  hosts: all
+  become: true
+  roles:
+    - httpd
+
